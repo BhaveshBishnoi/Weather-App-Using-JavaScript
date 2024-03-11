@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Using JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Weather App Using JavaScript</h1>
+      <form action="input">
+        <input
+          type="text"
+          id="inputbox"
+          placeholder="Enter Your City"
+          name="cityinput"
+        />
+        <input
+          type="button"
+          id="searchbutton"
+          value="Search"
+          name="cityinput"
+        />
+      </form>
+
+      <div class="main">
+        <div class="outbox">
+            <h3>Temprature(C) </h3> <h4 id="tempc"> </h4> <br>
+            <h3>Temprature(F) </h3> <h4 id="tempf"> </h4> <br>
+            <h3>humidity </h3> <h4 id="humidity"> </h4> <br>
+            <h3>Wind (KPH) </h3> <h4 id="Wind"> </h4> <br>
+            <h3>region </h3> <h4 id="region"> </h4> <br>
+    
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
